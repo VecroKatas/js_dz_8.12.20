@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet/index.css">
+  <link rel="stylesheet" href="stylesheet/helpers.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <title>Hazker</title>
+</head>
+<body>
+  <div class="row justify-content-center">
+    <div class="col-xl-3 col-2 row justify-content-end menu">
+      <div class="menu-icons row justify-content-between cont d-xl-none">
+        <div class="menu-icon menu-icon-btn">
+          <i class="fab fa-twitter f-s-25px"></i>
+        </div>
+
+        <div class="menu-icon menu-icon-btn">
+          <i class="fas fa-home f-s-25px"></i>
+        </div>
+
+        <div class="menu-icon menu-icon-btn">
+          <i class="fas fa-hashtag f-s-25px"></i>
+        </div>
+
+        <div class="menu-icon menu-icon-btn">
+          <i class="far fa-bell f-s-25px"></i>
+        </div>
+
+        <div class="menu-icon menu-icon-btn">
+          <i class="far fa-envelope f-s-25px"></i>
+        </div>
+
+        <div class="menu-icon menu-icon-btn">
+          <i class="far fa-bookmark f-s-25px"></i>
+        </div>
+
+        <div class="menu-icon menu-icon-btn">
+          <i class="far fa-list-alt f-s-25px"></i>
+        </div>
+
+        <div class="menu-icon menu-icon-btn">
+          <i class="far fa-user f-s-25px"></i>
+        </div>
+
+        <div class="menu-icon menu-icon-btn">
+          <i class="fas fa-ellipsis-h f-s-25px"></i>
+        </div>
+
+        <div class="tweet-icon-btn menu-icon">
+          <i class="far fa-comment-dots f-s-25px"></i>
+        </div>
+
+        <div class="profile-icon-btn">
+          <i class="far fa-user-circle profile-icon"></i>
+        </div>
+      </div>
+  
+      <div class="d-none d-xl-block menu-names">
+        <div class="menu-name menu-icon-btn">
+          <i class="fab fa-twitter f-s-25px"></i>
+        </div>
+
+        <div class="menu-name menu-name-btn w-120px">
+          <i class="fas fa-home f-s-25px"></i> Home
+        </div>
+
+        <div class="menu-name menu-name-btn w-130px">
+          <i class="fas fa-hashtag f-s-25px"></i> Explore
+        </div>
+
+        <div class="menu-name menu-name-btn w-195px">
+          <i class="far fa-bell f-s-25px"></i> Notifications
+        </div>
+
+        <div class="menu-name menu-name-btn w-160px">
+          <i class="far fa-envelope f-s-25px"></i> Messages
+        </div>
+
+        <div class="menu-name menu-name-btn w-170px">
+          <i class="far fa-bookmark f-s-25px"></i> Bookmarks
+        </div>
+
+        <div class="menu-name menu-name-btn w-100px">
+          <i class="far fa-list-alt f-s-25px"></i> Lists
+        </div>
+
+        <div class="menu-name menu-name-btn w-120px">
+          <i class="far fa-user f-s-25px"></i> Profile
+        </div>
+
+        <div class="menu-name menu-name-btn w-110px">
+          <i class="fas fa-ellipsis-h f-s-25px"></i> More
+        </div>
+
+        <div class="tweet-btn menu-name">
+          Tweet
+        </div>
+
+        <div class="profile-btn row justify-content-between">
+          <div class="row">
+            <i class="far fa-user-circle profile-icon"></i>
+            <div class="row cont">
+              <div class="profile-nickname">
+                Dr Shrek
+              </div>
+
+              <div class="profile-id">
+                @DrShrek
+              </div>
+            </div>
+          </div>
+          
+          <div class="profile-more">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-9 col-10 row main-part">
+      <div class="main-content row cont">
+        <div class="row-home row justify-content-between">
+          <div>
+            Home
+          </div>
+
+          <div class="star-btn">
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+
+        <div class="new-tweet row">
+          <div class="news-icon">
+            <i class="far fa-user-circle"></i>
+          </div>
+
+          <div class="news row cont">
+            <div>
+              <input type="text" name="what's happening" placeholder="What's happening?">
+            </div>
+
+            <div class="row items">
+              <div class="items-btn">
+                <i class="far fa-image"></i>
+              </div>
+
+              <div class="items-btn">
+                <i class="fab fa-git-square"></i>
+              </div>
+
+              <div class="items-btn">
+                <i class="fas fa-signal"></i>
+              </div>
+
+              <div class="items-btn">
+                <i class="far fa-smile"></i>
+              </div>
+
+              <div class="items-btn">
+                <i class="far fa-calendar-alt"></i>
+              </div>
+
+              <div class="news-tweet-btn">
+                Tweet
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet-padding"></div>
+
+        <div class="tweet row">
+          <div class="tweet-icon">
+            <i class="far fa-user-circle"></i>
+          </div>
+
+          <div class="tweet-text">
+            <div class="row cont">
+              <div class="nickname row">
+                <div class="profile-nickname">
+                  Dr Shrek
+                </div>
+  
+                <div class="nickname-id">
+                  @DrShrek
+                </div>
+              </div>
+
+              <div class="main-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet-padding"></div>
+
+        <div class="tweet row">
+          <div class="tweet-icon">
+            <i class="far fa-user-circle"></i>
+          </div>
+
+          <div class="tweet-text">
+            <div class="row cont">
+              <div class="nickname row">
+                <div class="profile-nickname">
+                  Dr Shrek
+                </div>
+  
+                <div class="nickname-id">
+                  @DrShrek
+                </div>
+              </div>
+
+              <div class="main-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet-padding"></div>
+
+        <div class="tweet row">
+          <div class="tweet-icon">
+            <i class="far fa-user-circle"></i>
+          </div>
+
+          <div class="tweet-text">
+            <div class="row cont">
+              <div class="nickname row">
+                <div class="profile-nickname">
+                  Dr Shrek
+                </div>
+  
+                <div class="nickname-id">
+                  @DrShrek
+                </div>
+              </div>
+
+              <div class="main-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="d-none d-lg-block side-content row cont">
+        <div class="search">
+	      	<input type="text" name="search" placeholder="Search Twitter" class="form-control">
+        </div>
+        
+        <div class="trends row cont">
+          <div class="country row justify-content-between">
+            <div class="country-name">USA trends</div>
+
+            <div class="gear-btn">
+              <i class="fas fa-cog"></i>
+            </div>
+          </div>
+
+          <div class="trend">
+            <div class="place"> 
+							<span>1 • Trending</span>
+							<div class="name_trend">
+								<span>#CrimsixIsABot</span>
+							</div>
+							<div class="tweets_counter">
+								<span>Under 10K tweets</span>
+							</div>
+            </div>
+          </div>
+
+          <div class="trend">
+            <div class="place"> 
+							<span>2 • Trending</span>
+							<div class="name_trend">
+								<span>#MyRoboCrush</span>
+							</div>
+							<div class="tweets_counter">
+								<span>Under 10K tweets</span>
+							</div>
+						</div>
+          </div>
+
+          <div class="trend">
+            <div class="place"> 
+							<span>3 • Trending</span>
+							<div class="name_trend">
+								<span>#YouMakeStrayKidsStay</span>
+							</div>
+							<div class="tweets_counter">
+								<span>200.5K tweets</span>
+							</div>
+						</div>
+          </div>
+
+          <div class="trend">
+            <div class="place"> 
+							<span>4 • Trending</span>
+							<div class="name_trend">
+								<span>Kishimoto</span>
+							</div>
+							<div class="tweets_counter">
+								<span>24.9K tweets</span>
+							</div>
+						</div>
+          </div>
+
+          <div class="trend">
+            <div class="place"> 
+							<span>5 • Trending</span>
+							<div class="name_trend">
+								<span>#StrayKids_Apologize_To_STAYC</span>
+							</div>
+							<div class="tweets_counter">
+								<span>Under 10K tweets</span>
+							</div>
+						</div>
+          </div>
+
+          <div class="trend">
+            <div class="place"> 
+							<span>6 • Trending</span>
+							<div class="name_trend">
+								<span>#MondayMorning</span>
+							</div>
+							<div class="tweets_counter">
+								<span>10.3K tweets</span>
+							</div>
+						</div>
+          </div>
+
+          <div class="show_more">
+            <button class="btn">Show more</button>
+          </div>	
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
